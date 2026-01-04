@@ -37,6 +37,10 @@ INSERT INTO Fighters(id, name, weight_class, weight_lbs, location, opponent)
 VALUES (1, "Islam", "Walter-weight", 185, "Dagestan", "Illia"),
        (1, "Khabib", "LightWeight", 155, "Dagestan", "Conor"); -- Error: Duplicate primary key
 
+INSERT INTO Fighters(id, name, weight_class, weight_lbs, location, opponent)
+VALUES (1, "Islam", "Walter-weight", 185, "Dagestan", "Illia"),
+       (2, "Khabib", "LightWeight", 155, "Dagestan", "Conor"); 
+       
 -- View all data in the Fighters table
 SELECT * FROM Fighters;
 
