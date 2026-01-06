@@ -86,20 +86,3 @@ WHERE age BETWEEN 25 and 30
 SELECT * from users
 WHERE age < 30 and LENGTH(first_name) > 1
 -- This query selects all users who are younger than 30 and have a first name longer than 1 character.
-
-
-
-
-
-
-
-Local Config
-
-
-
-Chat
-
-Codestral
-Ctrl⏎ Active file
-⏎ Enter
-
