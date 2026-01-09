@@ -1,4 +1,12 @@
 -- Active: 1767420256706@@127.0.0.1@3306@crud
+
+-- One-to-Many Relationship Example:
+-- This demonstrates a one-to-many relationship between DEPARTMENT and EMPLOYEE tables.
+-- In a one-to-many relationship:
+-- - One record in the parent table (DEPARTMENT) can be associated with multiple records in the child table (EMPLOYEE).
+-- - Each record in the child table (EMPLOYEE) is associated with exactly one record in the parent table (DEPARTMENT).
+
+
 CREATE TABLE DEPARTMENT(
     DEPT_ID INT PRIMARY KEY AUTO_INCREMENT,
     DEPT_NAME VARCHAR(50),
